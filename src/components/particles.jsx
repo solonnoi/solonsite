@@ -51,7 +51,7 @@ export default function Particle() {
         },
         particles: {
           color: {
-            value: '#000000',
+            value: '#78586F',
           },
           links: {
             color: '#000000',
