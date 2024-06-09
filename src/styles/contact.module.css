@@ -1,0 +1,39 @@
+.backgroundImage{
+    border: 0px !important;
+    box-shadow: none;
+    margin: auto;
+}
+
+.frontText{
+    
+    position: relative;
+}
+.imageContainer {
+    position: relative;
+    border: 0px !important;
+    box-shadow: none;
+    z-index: 0;
+    margin: auto;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.contactIcon {
+    margin-right: 10px;
+    color: black;
+}
+.grow-on-hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.grow-on-hover:hover, .grow-on-hover:focus, .grow-on-hover:active {
+    -webkit-transform: scale(1,2);
+    transform: scale(1.2);
+}
